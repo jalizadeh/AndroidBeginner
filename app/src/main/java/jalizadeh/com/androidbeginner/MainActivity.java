@@ -1,5 +1,6 @@
 package jalizadeh.com.androidbeginner;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         String textFromtv1 = tv1.getText().toString();
         System.out.println(textFromtv1);
         Log.d(TAG, "onCreate: " + textFromtv1);
-        //end of #2
 
 
 
@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 toastMessage("Button Two clicked.");
             }
         });
-        //end of #3
 
 
 
@@ -64,6 +63,24 @@ public class MainActivity extends AppCompatActivity {
         int firstImageID =
                 getResources().getIdentifier("@drawable/javaapp", null, this.getPackageName());
         firstImage.setImageResource(firstImageID);
+
+
+
+
+
+        //video #6
+        Button btnGoToSecondActivity = (Button) findViewById(R.id.goToSecondActivity);
+        btnGoToSecondActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(TAG, "onClick: btnGoToSecondActivity clicked");
+
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
+
+                Log.d(TAG, "onClick: 2nd activity run");
+            }
+        });
     }
 
 
