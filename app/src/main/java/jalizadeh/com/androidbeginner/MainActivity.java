@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -52,6 +53,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //end of #3
+
+
+
+
+
+        //video #5
+        ImageView firstImage = (ImageView) findViewById(R.id.firstImage);
+
+        int firstImageID =
+                getResources().getIdentifier("@drawable/javaapp", null, this.getPackageName());
+        firstImage.setImageResource(firstImageID);
     }
 
 
