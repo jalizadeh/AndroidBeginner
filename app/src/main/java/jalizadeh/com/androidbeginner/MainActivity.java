@@ -105,6 +105,18 @@ public class MainActivity extends AppCompatActivity {
         list.setAdapter(adapter);
 
 
+
+
+        //video #8
+        //a button to switch to it`s activity
+        Button btnGoToVideo8 = (Button) findViewById(R.id.goToVideo8);
+        btnGoToVideo8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
