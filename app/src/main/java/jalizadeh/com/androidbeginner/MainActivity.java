@@ -121,13 +121,26 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //video #9
+        //video #10
         //a button to switch to it`s activity
         Button btnGoToVideo10 = (Button) findViewById(R.id.goToVideo10);
         btnGoToVideo10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ListViewWithPhoto.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        //video #11
+        //a button to switch to it`s activity
+        Button btnGoToVideo11 = (Button) findViewById(R.id.goToVideo11);
+        btnGoToVideo11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SearchInList.class);
                 startActivity(intent);
             }
         });

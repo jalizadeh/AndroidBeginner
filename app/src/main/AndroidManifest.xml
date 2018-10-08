@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".ListViewWithPhoto"/>
+        <activity android:name=".ListViewWithPhoto" />
+        <activity android:name=".SearchInList"></activity>
     </application>
 
 </manifest>
