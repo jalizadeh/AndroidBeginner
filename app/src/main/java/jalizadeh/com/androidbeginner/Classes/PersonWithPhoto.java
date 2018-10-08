@@ -1,19 +1,21 @@
-package jalizadeh.com.androidbeginner;
+package jalizadeh.com.androidbeginner.Classes;
 
-//video #8
+//video #10
 
 /**
  * this class will hold the data of each Person in the list
  */
-public class Person {
+public class PersonWithPhoto {
     private String name;
     private String birthday;
     private String gender;
+    private String imgUrl;
 
-    public Person(String name, String birthday, String gender) {
+    public PersonWithPhoto(String name, String birthday, String gender, String imgUrl) {
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
+        this.imgUrl = imgUrl;
     }
 
     public String getName() {
@@ -40,4 +42,11 @@ public class Person {
         this.gender = gender;
     }
 
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
 }

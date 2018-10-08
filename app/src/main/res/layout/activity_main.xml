@@ -67,6 +67,13 @@
             android:id="@+id/goToVideo8"
             android:text="Go to Video #8"/>
 
+
+        <!--video #9-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo10"
+            android:text="Go to Video #10"/>
     </LinearLayout>
 
 </ScrollView>

@@ -2,10 +2,11 @@ package jalizadeh.com.androidbeginner;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
 import android.widget.ListView;
+
+import jalizadeh.com.androidbeginner.Classes.Person;
 
 //video #8
 public class ListViewActivity extends AppCompatActivity {
