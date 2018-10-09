@@ -230,7 +230,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        //video #16
+        //a button to switch to it`s activity
+        Button btnGoToVideo16 = (Button) findViewById(R.id.goToVideo16);
+        btnGoToVideo16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, YoutubePlayer_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
