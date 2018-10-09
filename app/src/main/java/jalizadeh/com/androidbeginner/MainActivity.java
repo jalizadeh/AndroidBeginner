@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -141,6 +142,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SearchInList.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        //video #12
+        //a button to switch to it`s activity
+        Button btnGoToVideo12 = (Button) findViewById(R.id.goToVideo12);
+        btnGoToVideo12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ScrollViewActivity.class);
                 startActivity(intent);
             }
         });
