@@ -26,7 +26,8 @@
         <activity android:name=".ConstraintLayout_Activity" />
         <activity android:name=".RelativeLayout_Activity" />
         <activity android:name=".YoutubePlayer_Activity" />
-        <activity android:name=".Graph_Activity"></activity>
+        <activity android:name=".Graph_Activity" />
+        <activity android:name=".SharedPref_Activity"></activity>
     </application>
 
 </manifest>

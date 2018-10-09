@@ -4,7 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import java.util.ArrayList;
+
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import jalizadeh.com.androidbeginner.Classes.Person;
 
@@ -20,7 +24,7 @@ public class ListViewActivity extends AppCompatActivity {
 
         ListView lv = (ListView) findViewById(R.id.lvListView);
 
-        ArrayList<Person> persons = new ArrayList<>();
+        final ArrayList<Person> persons = new ArrayList<>();
         persons.add(new Person("Javad", "01/01/2000","Male"));
         persons.add(new Person("Farzaneh", "01/01/2001","Female"));
         persons.add(new Person("Sr. Alex", "01/01/2002","Male"));
@@ -126,5 +130,17 @@ public class ListViewActivity extends AppCompatActivity {
         PersonArrayAdapter adapter =
                 new PersonArrayAdapter(this, R.layout.my_list_custom_adapter_layout, persons);
         lv.setAdapter(adapter);
+
+
+
+        //video #18
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(ListViewActivity.this,
+                        "Clicked on:\n" + persons.get(i).getName()
+                        ,Toast.LENGTH_SHORT ).show();
+            }
+        });
     }
 }

@@ -253,6 +253,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #19
+        //a button to switch to it`s activity
+        Button btnGoToVideo19 = (Button) findViewById(R.id.goToVideo19);
+        btnGoToVideo19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SharedPref_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

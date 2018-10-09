@@ -65,22 +65,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo8"
-            android:text="Go to Video #8"/>
+            android:text="#8,#18 - Simple List"/>
 
 
-        <!--video #9-->
+        <!--video #10-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo10"
-            android:text="Go to Video #10"/>
+            android:text="#10 - List with photo"/>
 
         <!--video #11-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo11"
-            android:text="Go to Video #11"/>
+            android:text="#11 - Search in list"/>
 
 
         <!--video #13-->
@@ -88,7 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo12"
-            android:text="Go to Video #12"/>
+            android:text="#12 - Scroll"/>
 
 
         <!--video #12-->
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo13"
-            android:text="Go to Video #13"/>
+            android:text="#13 - Const. Twitter"/>
 
 
         <!--video #14-->
@@ -104,7 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo14"
-            android:text="Go to Video #14"/>
+            android:text="#14 - RL Facebook"/>
 
         <!--video #16-->
         <Button
@@ -119,6 +119,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo17"
             android:text="#17 - Graph"/>
+
+
+        <!--video #19-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo19"
+            android:text="#19 - Shared Preferences"/>
     </LinearLayout>
 
 </ScrollView>
