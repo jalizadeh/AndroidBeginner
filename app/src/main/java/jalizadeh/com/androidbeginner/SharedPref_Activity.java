@@ -1,6 +1,7 @@
 package jalizadeh.com.androidbeginner;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
@@ -56,6 +57,12 @@ public class SharedPref_Activity extends AppCompatActivity {
                     mEditor.putString(getString(R.string.password), edPass.getText().toString());
                     mEditor.commit();
 
+
+                    //video #20
+                    Intent intent = new Intent(SharedPref_Activity.this, UsingSharedPref_Activity.class);
+                    startActivity(intent);
+
+
                 } else {
                     mEditor.putString(getString(R.string.chekbox),"False");
                     mEditor.commit();
@@ -65,6 +72,10 @@ public class SharedPref_Activity extends AppCompatActivity {
 
                     mEditor.putString(getString(R.string.password), "");
                     mEditor.commit();
+
+                    //video #20
+                    Intent intent = new Intent(SharedPref_Activity.this, UsingSharedPref_Activity.class);
+                    startActivity(intent);
                 }
             }
         });

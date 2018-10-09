@@ -126,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo19"
-            android:text="#19 - Shared Preferences"/>
+            android:text="#19,#20 - Shared Preferences"/>
     </LinearLayout>
 
 </ScrollView>
