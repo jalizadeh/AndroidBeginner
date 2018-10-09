@@ -20,7 +20,8 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".ListViewWithPhoto" />
         <activity android:name=".SearchInList" />
-        <activity android:name=".ScrollViewActivity"></activity>
+        <activity android:name=".ScrollViewActivity" />
+        <activity android:name=".ConstraintLayout_Activity"></activity>
     </application>
 
 </manifest>

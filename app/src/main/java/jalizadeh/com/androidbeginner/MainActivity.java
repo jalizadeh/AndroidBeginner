@@ -148,13 +148,25 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //video #12
+        //video #13
         //a button to switch to it`s activity
         Button btnGoToVideo12 = (Button) findViewById(R.id.goToVideo12);
         btnGoToVideo12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ScrollViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //video #12
+        //a button to switch to it`s activity
+        Button btnGoToVideo13 = (Button) findViewById(R.id.goToVideo13);
+        btnGoToVideo13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ConstraintLayout_Activity.class);
                 startActivity(intent);
             }
         });
