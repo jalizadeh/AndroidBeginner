@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jalizadeh.com.androidbeginner">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +25,8 @@
         <activity android:name=".ScrollViewActivity" />
         <activity android:name=".ConstraintLayout_Activity" />
         <activity android:name=".RelativeLayout_Activity" />
-        <activity android:name=".YoutubePlayer_Activity"></activity>
+        <activity android:name=".YoutubePlayer_Activity" />
+        <activity android:name=".Graph_Activity"></activity>
     </application>
 
 </manifest>
