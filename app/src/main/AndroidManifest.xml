@@ -21,7 +21,8 @@
         <activity android:name=".ListViewWithPhoto" />
         <activity android:name=".SearchInList" />
         <activity android:name=".ScrollViewActivity" />
-        <activity android:name=".ConstraintLayout_Activity"></activity>
+        <activity android:name=".ConstraintLayout_Activity" />
+        <activity android:name=".RelativeLayout_Activity"></activity>
     </application>
 
 </manifest>
