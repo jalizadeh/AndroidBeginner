@@ -29,7 +29,8 @@
         <activity android:name=".Graph_Activity" />
         <activity android:name=".SharedPref_Activity" />
         <activity android:name=".UsingSharedPref_Activity" />
-        <activity android:name=".GetDataByIntent"></activity>
+        <activity android:name=".GetDataByIntent" />
+        <activity android:name=".CustomDialogBox_Activity"></activity>
     </application>
 
 </manifest>

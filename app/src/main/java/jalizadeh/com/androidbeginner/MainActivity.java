@@ -266,6 +266,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #22
+        //a button to switch to it`s activity
+        Button btnGoToVideo22 = (Button) findViewById(R.id.goToVideo22);
+        btnGoToVideo22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CustomDialogBox_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
