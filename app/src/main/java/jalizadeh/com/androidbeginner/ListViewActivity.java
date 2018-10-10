@@ -1,5 +1,6 @@
 package jalizadeh.com.androidbeginner;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -140,6 +141,10 @@ public class ListViewActivity extends AppCompatActivity {
                 Toast.makeText(ListViewActivity.this,
                         "Clicked on:\n" + persons.get(i).getName()
                         ,Toast.LENGTH_SHORT ).show();
+
+                Intent intent = new Intent(ListViewActivity.this, GetDataByIntent.class);
+                intent.putExtra("name", persons.get(i).getName());
+                startActivity(intent);
             }
         });
     }

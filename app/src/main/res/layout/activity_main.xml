@@ -56,7 +56,7 @@
         <!--video #7-->
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="600dp"
+            android:layout_height="200dp"
             android:id="@+id/list1"/>
 
 
@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo8"
-            android:text="#8,#18 - Simple List"/>
+            android:text="#8,#18,#21 - Simple List"/>
 
 
         <!--video #10-->
