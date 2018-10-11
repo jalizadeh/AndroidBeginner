@@ -152,6 +152,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo24"
             android:text="#24 - CardView"/>
+
+
+        <!--video #25-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo25"
+            android:text="#25 - List with CardView"/>
     </LinearLayout>
 
 </ScrollView>

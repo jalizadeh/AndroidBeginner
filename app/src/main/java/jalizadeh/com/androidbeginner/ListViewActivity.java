@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import jalizadeh.com.androidbeginner.Classes.ArrayAdapter_Person;
 import jalizadeh.com.androidbeginner.Classes.Person;
 
 //video #8
@@ -128,8 +129,8 @@ public class ListViewActivity extends AppCompatActivity {
         persons.add(new Person("Ms. 20", "01/01/2004","Female"));
 
         //my own adapter
-        PersonArrayAdapter adapter =
-                new PersonArrayAdapter(this, R.layout.my_list_custom_adapter_layout, persons);
+        ArrayAdapter_Person adapter =
+                new ArrayAdapter_Person(this, R.layout.my_list_custom_adapter_layout, persons);
         lv.setAdapter(adapter);
 
 

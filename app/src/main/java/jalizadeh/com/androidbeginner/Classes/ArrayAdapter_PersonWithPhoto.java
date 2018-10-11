@@ -1,4 +1,4 @@
-package jalizadeh.com.androidbeginner;
+package jalizadeh.com.androidbeginner.Classes;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -23,8 +23,9 @@ import java.util.ArrayList;
 
 import jalizadeh.com.androidbeginner.Classes.Person;
 import jalizadeh.com.androidbeginner.Classes.PersonWithPhoto;
+import jalizadeh.com.androidbeginner.R;
 
-public class PersonWithPhotoArrayAdapter extends ArrayAdapter<PersonWithPhoto>{
+public class ArrayAdapter_PersonWithPhoto extends ArrayAdapter<PersonWithPhoto>{
     private static final String TAG = "PersonWithPhotoArrayAda";
     private Context mContext;
     private int mResource;
@@ -50,7 +51,7 @@ public class PersonWithPhotoArrayAdapter extends ArrayAdapter<PersonWithPhoto>{
 
 
     //press ctrl+o and choose this constructor
-    public PersonWithPhotoArrayAdapter(@NonNull Context context, int resource, @NonNull ArrayList<PersonWithPhoto> objects) {
+    public ArrayAdapter_PersonWithPhoto(@NonNull Context context, int resource, @NonNull ArrayList<PersonWithPhoto> objects) {
         super(context, resource, objects);
         mContext = context;
         mResource = resource;

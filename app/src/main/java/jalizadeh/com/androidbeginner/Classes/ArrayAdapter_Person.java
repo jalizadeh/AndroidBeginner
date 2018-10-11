@@ -1,4 +1,4 @@
-package jalizadeh.com.androidbeginner;
+package jalizadeh.com.androidbeginner.Classes;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -14,10 +14,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import jalizadeh.com.androidbeginner.Classes.Person;
+import jalizadeh.com.androidbeginner.R;
 
 //video #8
-public class PersonArrayAdapter extends ArrayAdapter<Person>{
-    private static final String TAG = "PersonArrayAdapter";
+public class ArrayAdapter_Person extends ArrayAdapter<Person>{
+    private static final String TAG = "ArrayAdapter_Person";
     private Context mContext;
     private int mResource;
 
@@ -41,7 +42,7 @@ public class PersonArrayAdapter extends ArrayAdapter<Person>{
 
 
     //press ctrl+o and choose this constructor
-    public PersonArrayAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Person> objects) {
+    public ArrayAdapter_Person(@NonNull Context context, int resource, @NonNull ArrayList<Person> objects) {
         super(context, resource, objects);
         mContext = context;
         mResource = resource;

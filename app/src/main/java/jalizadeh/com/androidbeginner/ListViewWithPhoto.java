@@ -6,8 +6,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-import jalizadeh.com.androidbeginner.Classes.Person;
 import jalizadeh.com.androidbeginner.Classes.PersonWithPhoto;
+import jalizadeh.com.androidbeginner.Classes.ArrayAdapter_PersonWithPhoto;
 
 public class ListViewWithPhoto extends AppCompatActivity {
 
@@ -77,8 +77,8 @@ public class ListViewWithPhoto extends AppCompatActivity {
         persons.add(new PersonWithPhoto("Ms. Bye", "01/01/2004","Female", "drawable://" + R.drawable.p5));
 
         //my own adapter
-        PersonWithPhotoArrayAdapter adapter =
-                new PersonWithPhotoArrayAdapter(this, R.layout.my_list_photo_custom_adapter_layout, persons);
+        ArrayAdapter_PersonWithPhoto adapter =
+                new ArrayAdapter_PersonWithPhoto(this, R.layout.my_list_photo_custom_adapter_layout, persons);
         lv.setAdapter(adapter);
     }
 }

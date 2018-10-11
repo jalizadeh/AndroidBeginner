@@ -32,7 +32,8 @@
         <activity android:name=".GetDataByIntent" />
         <activity android:name=".CustomDialogBox_Activity" />
         <activity android:name=".WebView_Activity" />
-        <activity android:name=".CardView_Activity"></activity>
+        <activity android:name=".CardView_Activity" />
+        <activity android:name=".ListOfCardView_Activity"></activity>
     </application>
 
 </manifest>

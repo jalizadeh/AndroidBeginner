@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+//video #24
 public class CardView_Activity extends AppCompatActivity {
 
     @Override
