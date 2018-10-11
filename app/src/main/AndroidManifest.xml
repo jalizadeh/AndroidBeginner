@@ -31,7 +31,8 @@
         <activity android:name=".UsingSharedPref_Activity" />
         <activity android:name=".GetDataByIntent" />
         <activity android:name=".CustomDialogBox_Activity" />
-        <activity android:name=".WebView_Activity"></activity>
+        <activity android:name=".WebView_Activity" />
+        <activity android:name=".CardView_Activity"></activity>
     </application>
 
 </manifest>
