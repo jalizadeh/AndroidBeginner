@@ -129,7 +129,7 @@
             android:text="#19,#20 - Shared Preferences"/>
 
 
-        <!--video #19-->
+        <!--video #22-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -137,6 +137,13 @@
             android:text="#22 - Custom DialogBox"/>
 
 
+
+        <!--video #23-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo23"
+            android:text="#23 - WebView"/>
     </LinearLayout>
 
 </ScrollView>

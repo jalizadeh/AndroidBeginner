@@ -279,6 +279,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #23
+        //a button to switch to it`s activity
+        Button btnGoToVideo23 = (Button) findViewById(R.id.goToVideo23);
+        btnGoToVideo23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, WebView_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

@@ -30,7 +30,8 @@
         <activity android:name=".SharedPref_Activity" />
         <activity android:name=".UsingSharedPref_Activity" />
         <activity android:name=".GetDataByIntent" />
-        <activity android:name=".CustomDialogBox_Activity"></activity>
+        <activity android:name=".CustomDialogBox_Activity" />
+        <activity android:name=".WebView_Activity"></activity>
     </application>
 
 </manifest>
