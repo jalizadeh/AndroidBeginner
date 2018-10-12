@@ -168,6 +168,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo26"
             android:text="#26 - DatePicker Dialog"/>
+
+
+        <!--video #27-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo27"
+            android:text="#27 - Calendar date pick"/>
     </LinearLayout>
 
 </ScrollView>

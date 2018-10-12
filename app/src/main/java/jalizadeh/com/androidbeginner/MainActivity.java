@@ -328,6 +328,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #27
+        //a button to switch to it`s activity
+        Button btnGoToVideo27 = (Button) findViewById(R.id.goToVideo27);
+        btnGoToVideo27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Calendar_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

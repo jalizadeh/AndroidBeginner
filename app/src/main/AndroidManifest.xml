@@ -34,7 +34,9 @@
         <activity android:name=".WebView_Activity" />
         <activity android:name=".CardView_Activity" />
         <activity android:name=".ListOfCardView_Activity" />
-        <activity android:name=".DatePickerDialog_Activity"></activity>
+        <activity android:name=".DatePickerDialog_Activity" />
+        <activity android:name=".Calendar_Activity" />
+        <activity android:name=".CalendarPicking_Activity"></activity>
     </application>
 
 </manifest>
