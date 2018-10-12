@@ -184,6 +184,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo28"
             android:text="#28 - Check Permissions"/>
+
+
+
+        <!--video #29-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo29"
+            android:text="#29 - SwipeMenuList"/>
     </LinearLayout>
 
 </ScrollView>

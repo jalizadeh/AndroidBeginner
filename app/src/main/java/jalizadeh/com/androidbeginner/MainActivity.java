@@ -354,6 +354,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #29
+        //a button to switch to it`s activity
+        Button btnGoToVideo29 = (Button) findViewById(R.id.goToVideo29);
+        btnGoToVideo29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SwipeList_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
@@ -362,7 +375,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param msg
      */
-    private void toastMessage(String msg){
+    public void toastMessage(String msg){
         Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
     }
 }
