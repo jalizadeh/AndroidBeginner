@@ -306,13 +306,25 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        //video #24
+        //video #25
         //a button to switch to it`s activity
         Button btnGoToVideo25 = (Button) findViewById(R.id.goToVideo25);
         btnGoToVideo25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ListOfCardView_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //video #26
+        //a button to switch to it`s activity
+        Button btnGoToVideo26 = (Button) findViewById(R.id.goToVideo26);
+        btnGoToVideo26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, DatePickerDialog_Activity.class);
                 startActivity(intent);
             }
         });

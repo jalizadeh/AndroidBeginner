@@ -160,6 +160,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo25"
             android:text="#25 - List with CardView"/>
+
+
+        <!--video #26-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo26"
+            android:text="#26 - DatePicker Dialog"/>
     </LinearLayout>
 
 </ScrollView>

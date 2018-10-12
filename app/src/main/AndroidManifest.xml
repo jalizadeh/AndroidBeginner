@@ -33,7 +33,8 @@
         <activity android:name=".CustomDialogBox_Activity" />
         <activity android:name=".WebView_Activity" />
         <activity android:name=".CardView_Activity" />
-        <activity android:name=".ListOfCardView_Activity"></activity>
+        <activity android:name=".ListOfCardView_Activity" />
+        <activity android:name=".DatePickerDialog_Activity"></activity>
     </application>
 
 </manifest>
