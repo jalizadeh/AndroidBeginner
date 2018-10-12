@@ -341,6 +341,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+        //video #28
+        //a button to switch to it`s activity
+        Button btnGoToVideo28 = (Button) findViewById(R.id.goToVideo28);
+        btnGoToVideo28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PermissionCheck_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

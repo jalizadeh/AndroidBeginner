@@ -176,6 +176,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/goToVideo27"
             android:text="#27 - Calendar date pick"/>
+
+
+        <!--video #28-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToVideo28"
+            android:text="#28 - Check Permissions"/>
     </LinearLayout>
 
 </ScrollView>
