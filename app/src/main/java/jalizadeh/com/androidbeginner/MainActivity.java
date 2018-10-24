@@ -18,6 +18,8 @@ import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
+import es.dmoral.toasty.Toasty;
+
 public class MainActivity extends AppCompatActivity {
 
     //type "logt" here, then get this line
@@ -98,7 +100,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d(TAG, "onClick: btn1 clicked.");
-                toastMessage("Button Two clicked.");
+                //toastMessage("Button Two clicked.");
+
+                Toasty.error(MainActivity.this, "TOASTY\nThis is an error toast.", Toast.LENGTH_SHORT, true).show();
+                Toasty.success(MainActivity.this, "Success!", Toast.LENGTH_SHORT, true).show();
+                Toasty.info(MainActivity.this, "Here is some info for you.", Toast.LENGTH_SHORT, true).show();
+                Toasty.warning(MainActivity.this, "Beware of the dog.", Toast.LENGTH_SHORT, true).show();
+                Toasty.normal(MainActivity.this, "Normal toast w/o icon").show();
+                Toasty.normal(MainActivity.this, "Normal toast w/ icon", R.drawable.ic_check_white_48dp).show();
             }
         });
 
